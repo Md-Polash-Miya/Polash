@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto+Slab:300,400,700|Roboto:300,400,500,700');
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+	border: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,ol,li,img{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+}
+/*common css end
+*/
+.header-menu{
+	
+}
+.header-menu{
+    background: rgb(2,145,140);
+}
+.container p{
+	font-size: 40px;
+	color: white;
+}
+.container .logo1{
+	color: rgb(207,201,29);
+}
+.container .nav-item{
+
+}
+.container .nav-item .nav-link{
+	font-size: 12px;
+	color: white;
+	margin-right: 40px;
+	text-transform: uppercase;
+
+}
+/* end h-nav bar */
+.banner-area{
+	background: url(../images/Banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ .banner-area{
+	position: relative;
+	margin-bottom: 95px;
+
+}
+.banner-area p{
+	padding-top: 210px;
+	font-size: 30px;
+
+
+}
+.banner-area .banner-p{
+	font-size: 68px;
+	text-transform: uppercase;
+	word-spacing: 25px;
+	letter-spacing: 30px;
+
+}
+.banner-area .banner-p2{
+	font-size: 18px;
+	position: absolute;
+	margin-left: -140px;
+	margin-top: -20px;
+}
+.banner-area .image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+.banner-area .button{
+	/*height: 45px;
+    width: 200px;
+    background: rgb(207,201,29);
+    display: flex;
+	justify-content: center;
+	align-items: center;*/
+	/*margin: 0 auto;*/
+	padding-bottom: 200px;
+}
+.banner-area .button a{
+	height: 45px;
+    width: 200px;
+    background: rgb(207,201,29);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	color: black;
+	text-transform: uppercase;
+}
+.banner-area .button a:hover{
+	background: black;
+	color: white;
+	transition: 0.5s;
+}
+/*end h-banner area*/
+
+.about-area{
+
+}
+.about-area .container{
+
+}
+.container h1{
+	font-size: 46px;
+	color: rgb(2,145,140);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.about-area .par00{
+	color: rgba(0,0,0,0.6);
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+
+.container .about-p{
+	line-height: 25px;
+}
+.container .about-p1{
+	font-size: 23px;
+	color: rgba(0,0,0,0.7);
+}
+.about-content{
+	padding-top: 20px;
+}
+.about-content .image2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 25px 0px;
+}
+.about-content h6{
+	font-size: 16px;
+}
+.about-content .par01{
+	color: rgba(0,0,0,0.6);
+	font-size: 11px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.about-content .about-item{
+	border-right: 1px solid  rgba(0,0,0,0.3) ;
+	margin-left: 20px;
+}
+/*about area end*/
+.service-area{
+   padding: 80px 0px;
+}
+.service-area .service-item{
+	background: rgb(240,240,232);
+	overflow: hidden;
+}
+.service-item .service-content{
+	margin-left: 95px;
+}
+.service-item .service-content h1{
+    font-size: 46px;
+	color: rgb(2,145,140);
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 25px;
+}
+.service-item .service-content .par00{
+    color: rgba(0,0,0,0.6);
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.service-item .service-content .leftitem{
+	padding-top: 25px;
+}
+.service-item .service-content h3{
+	padding: 10px 0px;
+    
+}
+.service-item .service-content1 .s-contert{
+    color: rgba(0,0,0,0.6);
+    font-size: 11px;
+}
+
+.service-area .service-item .rightimg{
+	height: 600px;
+	width: 100%;
+}
+
+/*End service area*/
+.work-area{
+
+}
+.work-area .work-content h1{
+    font-size: 46px;
+	color: rgb(2,145,140);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.work-area .work-content .par00{
+   color: rgba(0,0,0,0.6);
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.our-work{
+   margin-bottom: 50px;
+   overflow: hidden;
+}
+.our-work .work-content{
+
+}
+.work-content .work-item{
+	position: relative;
+	margin-left: -20px;
+	border: 1px solid white;
+	margin-right: -20px;
+	margin-top: -3px;
+    margin-bottom: -5px;
+}
+.work-content .work-item img{
+	height: 100%;
+	width: 100%;
+}
+.work-content .work-item .p-overlay{
+	height: 0%;
+	width: 100%;
+	background: rgba(213,66,66,0.8);
+	opacity: 0;
+	transition: all-linear 0.3s;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+.work-item:hover .p-overlay{
+	 opacity: 1;
+	 height: 100%;
+	 width: 100%;
+	 transition: 0.7s;
+	 top: 0;
+	 bottom: 0;
+
+}
+.p-overlay .title{
+	font-size: 25px;
+}
+.work-content .work-item h5{
+	display: block;
+}
+/*End Work area*/
+.footer-area{
+	margin-top: 100px;
+}
+.footer-area h1{
+	font-size: 46px;
+	color: rgb(2,145,140);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer-area .par222{
+	color: rgba(0,0,0,0.6);
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 35px;
+
+}
+.footer-area .footer-p{
+	line-height: 25px;
+	margin-bottom:  65px;
+	color: rgba(0,0,0,0.6);
+}
+.footer-area .form-area{
+	background: rgb(11,11,11);
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
+	padding: 50px 0px;
+	padding-left: 400px;
+}
+input[type=text]{
+	width: 500px;
+	border: none;
+	border-bottom: 1px solid rgb(137,137,137);;
+	background: rgb(11,11,11);
+	color: rgb(97,101,104);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 11px;
+}
+input[type=submit]{
+	height: 45px;
+	width: 147px;
+	margin-left: 185px;
+	background: rgb(207,201,29);
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	height: 50px;
+	width: 160px;
+	background: white;
+	color: black;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.copyright{
+	background: black;
+	height: 70px;
+	width: 100%;
+}
+.footer-area .copyright p{
+	color: white;
+	padding: 20px 0px;
+	font-size: 14px;
+
+}
+.copyright span{
+	color: orange;
+	font-size: 20px;
+	font-weight: bold;
+} 
